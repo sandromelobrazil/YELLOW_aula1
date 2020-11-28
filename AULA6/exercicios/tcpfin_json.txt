@@ -1,0 +1,28 @@
+{
+     "addresses": [
+          {
+               "addr": "11.11.11.171",
+               "addrtype": "ipv4"
+          },
+          {
+               "addr": "08:00:27:24:0A:80",
+               "addrtype": "mac",
+               "vendor": "Oracle VirtualBox virtual NIC"
+          }
+     ],
+     "hostname": [],
+     "ports": {
+          "protocol": "tcp",
+          "portid": "8180",
+          "state": {
+               "state": "open|filtered",
+               "reason": "no-response",
+               "reason_ttl": "0"
+          },
+          "service": {
+               "name": "unknown",
+               "method": "table",
+               "conf": "3"
+          }
+     }
+}

@@ -1,0 +1,14 @@
+www
+teste
+test
+admin
+intranet
+extranet
+www2
+firewall
+ips
+ids
+game
+games
+ftp
+download

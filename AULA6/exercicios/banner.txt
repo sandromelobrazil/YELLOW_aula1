@@ -1,0 +1,417 @@
+[
+     {
+          "protocol": "tcp",
+          "port": "21",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "ftp",
+               "product": "ProFTPD",
+               "version": "1.3.1",
+               "ostype": "Unix",
+               "method": "probed",
+               "conf": "10"
+          },
+          "cpe": [
+               {
+                    "cpe": "cpe:/a:proftpd:proftpd:1.3.1"
+               }
+          ]
+     },
+     {
+          "protocol": "tcp",
+          "port": "22",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "ssh",
+               "product": "OpenSSH",
+               "version": "4.7p1 Debian 8ubuntu1",
+               "extrainfo": "protocol 2.0",
+               "ostype": "Linux",
+               "method": "probed",
+               "conf": "10"
+          },
+          "cpe": [
+               {
+                    "cpe": "cpe:/o:linux:linux_kernel"
+               }
+          ]
+     },
+     {
+          "protocol": "tcp",
+          "port": "23",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "telnet",
+               "product": "Linux telnetd",
+               "ostype": "Linux",
+               "method": "probed",
+               "conf": "10"
+          },
+          "cpe": [
+               {
+                    "cpe": "cpe:/o:linux:linux_kernel"
+               }
+          ]
+     },
+     {
+          "protocol": "tcp",
+          "port": "25",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "smtp",
+               "product": "Postfix smtpd",
+               "hostname": " metasploitable.localdomain",
+               "method": "probed",
+               "conf": "10"
+          },
+          "cpe": [
+               {
+                    "cpe": "cpe:/a:postfix:postfix"
+               }
+          ]
+     },
+     {
+          "protocol": "tcp",
+          "port": "53",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "domain",
+               "product": "ISC BIND",
+               "version": "9.4.2",
+               "method": "probed",
+               "conf": "10"
+          },
+          "cpe": [
+               {
+                    "cpe": "cpe:/a:isc:bind:9.4.2"
+               }
+          ]
+     },
+     {
+          "protocol": "tcp",
+          "port": "80",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "http",
+               "product": "Apache httpd",
+               "version": "2.2.8",
+               "extrainfo": "(Ubuntu) DAV/2",
+               "method": "probed",
+               "conf": "10"
+          },
+          "cpe": [
+               {
+                    "cpe": "cpe:/a:apache:http_server:2.2.8"
+               }
+          ]
+     },
+     {
+          "protocol": "tcp",
+          "port": "110",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "pop3",
+               "product": "Dovecot pop3d",
+               "method": "probed",
+               "conf": "10"
+          },
+          "cpe": [
+               {
+                    "cpe": "cpe:/a:dovecot:dovecot"
+               }
+          ]
+     },
+     {
+          "protocol": "tcp",
+          "port": "111",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "rpcbind",
+               "version": "2",
+               "extrainfo": "RPC #100000",
+               "method": "probed",
+               "conf": "10"
+          }
+     },
+     {
+          "protocol": "tcp",
+          "port": "139",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "netbios-ssn",
+               "product": "Samba smbd",
+               "version": "3.X - 4.X",
+               "extrainfo": "workgroup: WORKGROUP",
+               "method": "probed",
+               "conf": "10"
+          },
+          "cpe": [
+               {
+                    "cpe": "cpe:/a:samba:samba"
+               }
+          ]
+     },
+     {
+          "protocol": "tcp",
+          "port": "143",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "imap",
+               "product": "Dovecot imapd",
+               "method": "probed",
+               "conf": "10"
+          },
+          "cpe": [
+               {
+                    "cpe": "cpe:/a:dovecot:dovecot"
+               }
+          ]
+     },
+     {
+          "protocol": "tcp",
+          "port": "445",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "netbios-ssn",
+               "product": "Samba smbd",
+               "version": "3.X - 4.X",
+               "extrainfo": "workgroup: WORKGROUP",
+               "method": "probed",
+               "conf": "10"
+          },
+          "cpe": [
+               {
+                    "cpe": "cpe:/a:samba:samba"
+               }
+          ]
+     },
+     {
+          "protocol": "tcp",
+          "port": "512",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "exec",
+               "product": "netkit-rsh rexecd",
+               "ostype": "Linux",
+               "method": "probed",
+               "conf": "10"
+          },
+          "cpe": [
+               {
+                    "cpe": "cpe:/o:linux:linux_kernel"
+               }
+          ]
+     },
+     {
+          "protocol": "tcp",
+          "port": "513",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "login",
+               "product": "OpenBSD or Solaris rlogind",
+               "method": "probed",
+               "conf": "10"
+          }
+     },
+     {
+          "protocol": "tcp",
+          "port": "514",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "shell",
+               "product": "Netkit rshd",
+               "method": "probed",
+               "conf": "10"
+          },
+          "cpe": [
+               {
+                    "cpe": "cpe:/a:netkit:netkit_rsh"
+               }
+          ]
+     },
+     {
+          "protocol": "tcp",
+          "port": "1099",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "java-rmi",
+               "product": "GNU Classpath grmiregistry",
+               "method": "probed",
+               "conf": "10"
+          }
+     },
+     {
+          "protocol": "tcp",
+          "port": "1524",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "bindshell",
+               "product": "Metasploitable root shell",
+               "method": "probed",
+               "conf": "10"
+          }
+     },
+     {
+          "protocol": "tcp",
+          "port": "2049",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "nfs",
+               "version": "2-4",
+               "extrainfo": "RPC #100003",
+               "method": "probed",
+               "conf": "10"
+          }
+     },
+     {
+          "protocol": "tcp",
+          "port": "3306",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "mysql",
+               "product": "MySQL",
+               "version": "5.0.51a-3ubuntu5",
+               "method": "probed",
+               "conf": "10"
+          },
+          "cpe": [
+               {
+                    "cpe": "cpe:/a:mysql:mysql:5.0.51a-3ubuntu5"
+               }
+          ]
+     },
+     {
+          "protocol": "tcp",
+          "port": "5432",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "postgresql",
+               "product": "PostgreSQL DB",
+               "version": "8.3.0 - 8.3.7",
+               "method": "probed",
+               "conf": "10"
+          },
+          "cpe": [
+               {
+                    "cpe": "cpe:/a:postgresql:postgresql:8.3"
+               }
+          ]
+     },
+     {
+          "protocol": "tcp",
+          "port": "5900",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "vnc",
+               "product": "VNC",
+               "extrainfo": "protocol 3.3",
+               "method": "probed",
+               "conf": "10"
+          }
+     },
+     {
+          "protocol": "tcp",
+          "port": "6000",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "X11",
+               "extrainfo": "access denied",
+               "method": "probed",
+               "conf": "10"
+          }
+     },
+     {
+          "protocol": "tcp",
+          "port": "6667",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "irc",
+               "product": "UnrealIRCd",
+               "hostname": "irc.Metasploitable.LAN",
+               "method": "probed",
+               "conf": "10"
+          },
+          "cpe": [
+               {
+                    "cpe": "cpe:/a:unrealircd:unrealircd"
+               }
+          ]
+     },
+     {
+          "protocol": "tcp",
+          "port": "8009",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "ajp13",
+               "product": "Apache Jserv",
+               "extrainfo": "Protocol v1.3",
+               "method": "probed",
+               "conf": "10"
+          }
+     },
+     {
+          "protocol": "tcp",
+          "port": "8180",
+          "state": "open",
+          "reason": "syn-ack",
+          "reason_ttl": "64",
+          "service": {
+               "name": "http",
+               "product": "Apache Tomcat/Coyote JSP engine",
+               "version": "1.1",
+               "method": "probed",
+               "conf": "10"
+          },
+          "cpe": [
+               {
+                    "cpe": "cpe:/a:apache:coyote_http_connector:1.1"
+               }
+          ]
+     }
+]

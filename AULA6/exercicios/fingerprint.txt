@@ -1,0 +1,15 @@
+[
+     {
+          "name": "Linux 2.6.9 - 2.6.33",
+          "accuracy": "100",
+          "line": "59153",
+          "osclass": {
+               "type": "general purpose",
+               "vendor": "Linux",
+               "osfamily": "Linux",
+               "osgen": "2.6.X",
+               "accuracy": "100"
+          },
+          "cpe": "cpe:/o:linux:linux_kernel:2.6"
+     }
+]

@@ -1,0 +1,14 @@
+
+def ler_ip():
+    pass
+
+    with open(_wordlist, 'r') as machines:
+        while True:
+            machine = machines.readline().strip("\n")
+
+            if not machine:
+                break
+            
+            print('IP:', machine)
+
+

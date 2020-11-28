@@ -1,0 +1,9 @@
+root
+toor
+game
+msfadmin
+msf
+postfix
+tomcat55
+telnetd
+proftpd

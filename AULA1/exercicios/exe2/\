@@ -1,0 +1,37 @@
+#!/usr/bin/python
+
+import dns.zone
+import dns.query
+import dns.resolver
+
+target = "11.11.11.171"
+domain = "yellow.dojo" 
+myquery = dns.resolver.Resolver()
+myquery2 = dns.resolver.Resolver()
+
+
+def dns_getzone(_domain):
+    zonetransfer = dns.zone.from_xfr(dns.query.xfr(target,_domain))
+
+    for _register in zonetransfer.nodes.keys():
+        print(zonetransfer[_register].to_text(_register))
+
+
+def dns_checkdns(_domain):
+    _answers = myquery.query(_domain, 'NS')
+        
+    for _ns in _answers:
+        print(_ns)
+        dns_checkipns(_ns)
+
+def dns_checkipns(_nameserver):
+        print(_nameserver)
+        print(type(_nameserver))
+        
+        _nsip = myquery2.query(_namersever, 'A')
+
+        for _ipdns in _teste:
+            print("IP do DNS", _ipdns)
+
+dns_checkdns("yellow.dojo")
+

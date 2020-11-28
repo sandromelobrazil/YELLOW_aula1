@@ -1,0 +1,21 @@
+
+'''   
+    if "252" in result:
+        valid_users.append(user)
+            if verbose > 1:
+                print("[+] O nome de usuário %s é válido") % (user)
+        
+    if "550" in result:
+        if verbose > 1:
+            print "[-] 550 Usuário não existe"
+    
+    if "503" in result:
+        print("[!] O servidor requer autenticação")
+        break
+
+     if "500" in result:
+        print("[!] O comando VRFY não é suportado")
+        break
+
+'''
+
