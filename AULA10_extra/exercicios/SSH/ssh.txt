@@ -1,0 +1,6 @@
+
+except socket.error:
+    print(error)
+except paramiko.SSHException:
+    print(error)
+    print "Alguma coisa errada com a  host key"

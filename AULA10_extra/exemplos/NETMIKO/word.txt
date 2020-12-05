@@ -1,0 +1,14 @@
+user
+ninja
+xninja
+123
+1234
+12345
+12325
+msfadmin
+admin
+toor
+root
+tomcat
+tomcat5
+tomcat55

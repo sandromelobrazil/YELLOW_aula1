@@ -1,0 +1,7 @@
+root
+msfadmin
+user
+mysqld
+mysql
+tomcat
+tomcat55
